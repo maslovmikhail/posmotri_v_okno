@@ -44,10 +44,14 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
-  gap: 30px;
+  gap: 27px;
 }
 
 /* Блок с видео */
+
+.result {
+  padding-block-end: 3px;
+}
 
 .result__video-container {
   position: relative;
@@ -209,6 +213,7 @@ ol {
   font-size: 75px;
   line-height: 0.94;
   text-transform: uppercase;
+  padding-inline-start: 3px;
 }
 
 .content__accent {
@@ -221,7 +226,8 @@ ol {
   flex-direction: column;
   overflow: auto;
   max-block-size: 298px;
-  min-inline-size: 423px;
+  min-inline-size: 424px;
+  padding: 0px 0px 3px 3px;
 }
 
 .content__list-item:not(:last-child) {
